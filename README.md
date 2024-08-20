@@ -143,6 +143,9 @@ yarn dev --host
 ```
 <script src="https://telegram.org/js/telegram-web-app.js"></script>
 ```
+如图：
+![alt text](images/P5.png)
+
 在/src/components/HelloWorld.vue中添加组件使用代码：
 ```
 <script lang="ts" setup>
@@ -489,3 +492,19 @@ body {
 }
 </style>
 ```
+运行效果：
+![alt text](images/P4.png)
+
+### 3、创建并配置小程序
+打开 Telegram 应用程序或网页版本。
+在搜索栏中搜索 @BotFather 或打开链接 https://t.me/BotFather。
+通过点击 START 按钮来开始与 BotFather 的对话执行创建以及配置步骤。
+
+1、创建Bot，Bot与App是一对多的关系，一个Bot可以创建多个App 如下图：
+![alt text](images/P6.png)
+2、创建App，这里需要提供一张640x360尺寸的Logo图片，如下图：
+![alt text](images/P7.jpg)
+
+
+
+
