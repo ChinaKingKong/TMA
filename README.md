@@ -505,6 +505,42 @@ body {
 2、创建App，这里需要提供一张640x360尺寸的Logo图片，如下图：
 ![alt text](images/P7.jpg)
 
+需要注意的是，现在小程序中必须使用https协议才能部署运行。
 
+### 4、本地调试小程序
+使用以下工具来Debug小程序：
 
+#### Android
+在您的设备上启用USB调试。
+在Telegram设置中，向下滚动，按住版本号两次。
+在调试设置中选择启用WebView调试。
+将手机连接到计算机，并在Chrome中打开chrome://inspect/#devices - 当您在手机上启动小程序时，您会在那里看到它。
 
+#### Windows和Linux上的Telegram桌面版
+下载并启动[Telegram桌面版的Beta版本](https://desktop.telegram.org/changelog#beta-version)。
+转到设置 > 高级 > 实验设置 > 启用WebView检查。
+右键单击WebView并选择检查元素。
+
+#### macOS上的Telegram
+下载并启动[Telegram macOS的Beta版本](https://install.appcenter.ms/users/keepcoder/apps/Telergam-Beta-Updated/distribution_groups/public)
+快速点击5次设置图标以打开调试菜单，并启用调试Web App。
+右键单击小程序并选择检查元素。
+
+#### iOS上的Telegram
+下载最新的App，然后安装如上步骤进行配置操作即可。
+
+然后这里我们需要使用ngrok做内网穿透，将本地程序端口映射到外网。这样做的目的仅是为了给本地端口号使用https协议的网址。
+
+进入官网 https://ngrok.com/ 注册账号，然后安装步骤安装即可。
+![alt text](images/P8.png)
+
+映射端口：
+![alt text](images/P1.png)
+
+然后进入电报修改之前绑定的Web App URL, 如下图：
+![alt text](images/P9.png)
+
+最终运行效果图：
+![alt text](images/P10.png)
+
+至此我们从小程序代码创建到本地调试的操作步骤就基本跑通了，让我们开启电报小程序的开发之旅吧！有问题欢迎讨论交流。
