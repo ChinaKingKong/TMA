@@ -101,9 +101,6 @@ function App() {
 
 export default App
 ```
-效果如图：
-
-![alt text](images/P3.png)
 
 ### 2、Vite+Vue+Typescript 开发电报小程序
 直接运行以下命令创建带有 TypeScript 支持的 Vue 项目：
@@ -143,9 +140,6 @@ yarn dev --host
 ```
 <script src="https://telegram.org/js/telegram-web-app.js"></script>
 ```
-如图：
-
-![alt text](images/P5.png)
 
 在/src/components/HelloWorld.vue中添加组件使用代码：
 ```
@@ -493,9 +487,6 @@ body {
 }
 </style>
 ```
-运行效果：
-
-![alt text](images/P4.png)
 
 ### 3、创建并配置小程序
 打开 Telegram 应用程序或网页版本。
