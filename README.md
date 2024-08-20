@@ -7,11 +7,13 @@ Telegram Mini Apps（TMA）是在 Telegram 消息传递应用程序内运行的 
 
 # 1.Vite+React+Typescript 开发应用
 直接运行以下命令创建带有 TypeScript 支持的 React 项目：
-`# npm 7+, extra double-dash is needed:
+```
+# npm 7+, extra double-dash is needed:
 npm create vite my-react-telegram-web-app -- --template react-ts
 
 # or yarn
 yarn create vite my-react-telegram-web-app --template react-ts
 
 # this will change the directory to recently created project
-cd my-react-telegram-web-app`
+cd my-react-telegram-web-app
+```
