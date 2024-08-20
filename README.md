@@ -57,9 +57,8 @@ yarn add @twa-dev/sdk
 import WebApp from '@twa-dev/sdk'
 
 WebApp.ready();
-```
-如图：
-![alt text](images/P2.png)
+``` 
+
 WebApp.ready() - 是一个方法，向 Telegram 应用程序通知小程序已准备好显示。建议尽可能早地调用此方法，一旦加载了所有必要的接口元素。一旦调用此方法，加载的占位符将被隐藏，小程序将被显示。
 
 添加小程序元素与用户交互。进入 src/App.tsx，这里我们添加带有弹框的按钮。
@@ -103,6 +102,7 @@ function App() {
 export default App
 ```
 效果如图：
+
 ![alt text](images/P3.png)
 
 ### 2、Vite+Vue+Typescript 开发电报小程序
@@ -144,6 +144,7 @@ yarn dev --host
 <script src="https://telegram.org/js/telegram-web-app.js"></script>
 ```
 如图：
+
 ![alt text](images/P5.png)
 
 在/src/components/HelloWorld.vue中添加组件使用代码：
@@ -493,6 +494,7 @@ body {
 </style>
 ```
 运行效果：
+
 ![alt text](images/P4.png)
 
 ### 3、创建并配置小程序
@@ -501,8 +503,11 @@ body {
 通过点击 START 按钮来开始与 BotFather 的对话执行创建以及配置步骤。
 
 1、创建Bot，Bot与App是一对多的关系，一个Bot可以创建多个App 如下图：
+
 ![alt text](images/P6.png)
+
 2、创建App，这里需要提供一张640x360尺寸的Logo图片，如下图：
+
 ![alt text](images/P7.jpg)
 
 需要注意的是，现在小程序中必须使用https协议才能部署运行。
@@ -532,15 +537,19 @@ body {
 然后这里我们需要使用ngrok做内网穿透，将本地程序端口映射到外网。这样做的目的仅是为了给本地端口号使用https协议的网址。
 
 进入官网 https://ngrok.com/ 注册账号，然后安装步骤安装即可。
+
 ![alt text](images/P8.png)
 
 映射端口：
+
 ![alt text](images/P1.png)
 
 然后进入电报修改之前绑定的Web App URL, 如下图：
+
 ![alt text](images/P9.png)
 
 最终运行效果图：
+
 ![alt text](images/P10.png)
 
 至此我们从小程序代码创建到本地调试的操作步骤就基本跑通了，让我们开启电报小程序的开发之旅吧！有问题欢迎讨论交流。
