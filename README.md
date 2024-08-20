@@ -536,7 +536,7 @@ body {
 
 然后这里我们需要使用ngrok做内网穿透，将本地程序端口映射到外网。这样做的目的仅是为了给本地端口号使用https协议的网址。
 
-进入官网 https://ngrok.com/ 注册账号，然后安装步骤安装即可。
+进入官网 https://ngrok.com/ 注册账号，然后按照步骤安装即可。
 
 ![alt text](images/P8.png)
 
