@@ -136,6 +136,15 @@ yarn
 yarn dev --host
 ```
 
+添加vue-tg库
+```
+npm i vue-tg
+
+```
+
+vue-tg 官方文档说明
+https://github.com/deptyped/vue-telegram?tab=readme-ov-file
+
 在 index.html 中添加引用
 ```
 <script src="https://telegram.org/js/telegram-web-app.js"></script>
